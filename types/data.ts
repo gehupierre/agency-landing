@@ -3,3 +3,10 @@ export type ExploreDataType = {
   location: string;
   distance: string;
 };
+
+export type MainDataType = {
+  image: string;
+  title: string;
+  text: string;
+  buttonLabel: string;
+}

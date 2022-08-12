@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Banner from "../components/banner";
 import Header from "../components/header";
+import LargeCard from "../components/large-card";
 import MediumCard from "../components/medium-card";
 import SmallCard from "../components/small-card";
 import styles from "../styles/Home.module.css";
@@ -42,6 +43,17 @@ const Home: NextPage<HomeProps> = ({ explorableData }) => {
               return <MediumCard {...item} key={`${item.image}-key`} />;
             })}
           </div>
+        </section>
+
+        <section>
+          <LargeCard
+            {...{
+              title: "The Greatest Outdoors",
+              image: explorableData[5].image,
+              text: "Wishlist curated by AirBnB",
+              buttonLabel: "Get inspired!",
+            }}
+          />
         </section>
       </main>
 
