@@ -1,0 +1,42 @@
+[
+  {
+    "image": "south-beach.jpg",
+    "location": "South Beach",
+    "distance": "35 minutes drive"
+  },
+  {
+    "image": "miami-beach.jpg",
+    "location": "Miami Beach",
+    "distance": "25 minutes drive"
+  },
+  {
+    "image": "golden-beach.jpg",
+    "location": "Golden Beach",
+    "distance": "15 minutes drive"
+  },
+  {
+    "image": "downtown.jpg",
+    "location": "Downtown Miami",
+    "distance": "25 minutes drive"
+  },
+  {
+    "image": "sunny-isles.jpg",
+    "location": "Sunny Isle Beach",
+    "distance": "5 minutes drive"
+  },
+  {
+    "image": "surfside.jpg",
+    "location": "Surfside Beach",
+    "distance": "10 minutes drive"
+  },
+  {
+    "image": "stadium.jpg",
+    "location": "Miami Stadium",
+    "distance": "30 minutes drive"
+  },
+  {
+    "image": "business.jpg",
+    "location": "Miami Business District",
+    "distance": "30 minutes drive"
+  }
+]
