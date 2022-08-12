@@ -2,10 +2,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Banner from "../components/banner";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import LargeCard from "../components/large-card";
 import MediumCard from "../components/medium-card";
 import SmallCard from "../components/small-card";
-import styles from "../styles/Home.module.css";
 import { ExploreDataType } from "../types/data";
 
 type HomeProps = {
@@ -57,7 +57,7 @@ const Home: NextPage<HomeProps> = ({ explorableData }) => {
         </section>
       </main>
 
-      <footer className={styles.footer}></footer>
+      <Footer />
     </div>
   );
 };
