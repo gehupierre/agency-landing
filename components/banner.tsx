@@ -13,7 +13,7 @@ export default function Banner() {
         <p className="text-sm sm:text-lg md:text-xl text-white shadow-md">
           Not sure where to go? Perfect!
         </p>
-        <button className="text-purple-500 bg-white px-10 py-4 rounded-full shadow-md font-bold my-3 hover:shadow-xl active:scale-90 transition duration-150">
+        <button className="text-purple-500 bg-white px-10 py-4 rounded-full shadow-md font-bold my-3 hover:shadow-xl hover:scale-110 active:scale-90 transition duration-150">
           {"I'm flexible"}
         </button>
       </div>
