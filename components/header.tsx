@@ -1,10 +1,10 @@
 import Image from "next/image";
 import {
-  SearchIcon,
   GlobeAltIcon,
   MenuIcon,
   UserCircleIcon,
 } from "@heroicons/react/outline";
+import HeaderSearch from "./header-search";
 
 export default function Header() {
   return (
@@ -19,12 +19,7 @@ export default function Header() {
         />
       </div>
       <div className="flex items-center md:border-2 rounded-full py-2 md:shadow-sm">
-        <input
-          type="text"
-          placeholder="Start your search"
-          className="flex-grow pl-5 transparent outline-none text-gray-600 placeholder-gray-400"
-        />
-        <SearchIcon className="hidden md:inline-flex h-8 bg-red-400 text-white rounded-full p-2 cursor-pointer md:mx-2" />
+        <HeaderSearch />
       </div>
       <div className="flex items-center justify-end text-gray-500 space-x-2">
         <p className="hidden md:inline">Become a host</p>
