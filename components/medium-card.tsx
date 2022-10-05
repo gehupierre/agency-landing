@@ -7,7 +7,7 @@ export default function MediumCard({
   distance,
 }: ExploreDataType) {
   return (
-    <div className="cursor-pointer hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
+    <div className="cursor-pointer hover:scale-105 transition transform duration-200 ease-out">
       <div className="relative h-80 w-80">
         <Image
           src={`/assets/explore/${image}`}

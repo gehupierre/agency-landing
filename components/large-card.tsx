@@ -8,7 +8,7 @@ export default function LargeCard({
   buttonLabel,
 }: MainDataType) {
   return (
-    <div className="cursor-pointer py-16 hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out">
+    <div className="cursor-pointer py-16 hover:scale-105 transition transform duration-200 ease-out">
       <div className="relative h-96 min-w-[300px]">
         <Image
           src={`/assets/explore/${image}`}
